@@ -1,0 +1,5 @@
+
+project_id = "gzwqzddjcvtxtsyieqln"
+
+[functions.get-openai-key]
+verify_jwt = true
