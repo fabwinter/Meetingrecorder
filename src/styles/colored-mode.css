@@ -1,0 +1,133 @@
+
+@layer base {
+  /* Coloured mode styles */
+  .coloured {
+    --foreground: 0 0% 100%;
+    --card-foreground: 0 0% 100%;
+    --popover-foreground: 0 0% 100%;
+    --primary-foreground: 0 0% 100%;
+    --secondary-foreground: 0 0% 100%;
+    --muted-foreground: 0 0% 100%;
+    --accent-foreground: 0 0% 100%;
+    --border: 0 0% 100% / 0.2;
+    --input: 0 0% 100% / 0.3;
+  }
+
+  /* Coloured theme styles for each color */
+  .coloured.theme-default {
+    --background: 214 100% 50%;
+    --foreground: 0 0% 100%;
+    --card: 214 100% 45%;
+    --popover: 214 100% 45%;
+    --primary: 0 0% 100%;
+    --secondary: 214 100% 40%;
+    --muted: 214 100% 35%;
+    --accent: 214 100% 60%;
+    --ring: 0 0% 100%;
+  }
+  
+  .coloured.theme-blue {
+    --background: 200 100% 45%;
+    --foreground: 0 0% 100%;
+    --card: 200 100% 40%;
+    --popover: 200 100% 40%;
+    --primary: 0 0% 100%;
+    --secondary: 200 100% 35%;
+    --muted: 200 100% 30%;
+    --accent: 200 100% 55%;
+    --ring: 0 0% 100%;
+  }
+  
+  .coloured.theme-red {
+    --background: 0 100% 50%;
+    --foreground: 0 0% 100%;
+    --card: 0 100% 45%;
+    --popover: 0 100% 45%;
+    --primary: 0 0% 100%;
+    --secondary: 0 100% 40%;
+    --muted: 0 100% 35%;
+    --accent: 0 100% 60%;
+    --ring: 0 0% 100%;
+  }
+  
+  .coloured.theme-purple {
+    --background: 270 100% 55%;
+    --foreground: 0 0% 100%;
+    --card: 270 100% 50%;
+    --popover: 270 100% 50%;
+    --primary: 0 0% 100%;
+    --secondary: 270 100% 45%;
+    --muted: 270 100% 40%;
+    --accent: 270 100% 65%;
+    --ring: 0 0% 100%;
+  }
+  
+  .coloured.theme-magenta {
+    --background: 315 100% 55%;
+    --foreground: 0 0% 100%;
+    --card: 315 100% 50%;
+    --popover: 315 100% 50%;
+    --primary: 0 0% 100%;
+    --secondary: 315 100% 45%;
+    --muted: 315 100% 40%;
+    --accent: 315 100% 65%;
+    --ring: 0 0% 100%;
+  }
+  
+  .coloured.theme-teal {
+    --background: 180 100% 40%;
+    --foreground: 0 0% 100%;
+    --card: 180 100% 35%;
+    --popover: 180 100% 35%;
+    --primary: 0 0% 100%;
+    --secondary: 180 100% 30%;
+    --muted: 180 100% 25%;
+    --accent: 180 100% 50%;
+    --ring: 0 0% 100%;
+  }
+  
+  .coloured.theme-green {
+    --background: 125 100% 40%;
+    --foreground: 0 0% 100%;
+    --card: 125 100% 35%;
+    --popover: 125 100% 35%;
+    --primary: 0 0% 100%;
+    --secondary: 125 100% 30%;
+    --muted: 125 100% 25%;
+    --accent: 125 100% 50%;
+    --ring: 0 0% 100%;
+  }
+  
+  /* Yellow theme with black text */
+  .coloured.theme-yellow {
+    --background: 45 100% 50%;
+    --foreground: 0 0% 0%;
+    --card: 45 100% 45%;
+    --card-foreground: 0 0% 0%;
+    --popover: 45 100% 45%;
+    --popover-foreground: 0 0% 0%;
+    --primary: 0 0% 0%;
+    --primary-foreground: 45 100% 50%;
+    --secondary: 45 100% 40%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 45 100% 35%;
+    --muted-foreground: 0 0% 0%;
+    --accent: 45 100% 60%;
+    --accent-foreground: 0 0% 0%;
+    --ring: 0 0% 0%;
+    --border: 0 0% 0% / 0.2;
+    --input: 0 0% 0% / 0.3;
+  }
+  
+  .coloured.theme-orange {
+    --background: 25 100% 50%;
+    --foreground: 0 0% 100%;
+    --card: 25 100% 45%;
+    --popover: 25 100% 45%;
+    --primary: 0 0% 100%;
+    --secondary: 25 100% 40%;
+    --muted: 25 100% 35%;
+    --accent: 25 100% 60%;
+    --ring: 0 0% 100%;
+  }
+}

@@ -1,0 +1,210 @@
+
+@layer base {
+  /* Default theme (blue) */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 214 100% 60%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 214 100% 60%;
+
+    --radius: 0.75rem;
+  }
+
+  /* Light mode always has white background regardless of theme */
+  .light {
+    --background: 0 0% 100%;
+    --card: 0 0% 100%;
+    --popover: 0 0% 100%;
+  }
+
+  /* Blue theme - keeping text colors but ensuring white background in light mode */
+  .light.theme-blue {
+    --background: 0 0% 100%;
+    --card: 0 0% 100%;
+    --popover: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 200 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 200 40% 90%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 200 40% 90%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 200 40% 90%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --border: 200 40% 85%;
+    --input: 200 40% 85%;
+    --ring: 200 100% 50%;
+  }
+
+  /* Red theme - ensuring white background in light mode */
+  .light.theme-red {
+    --background: 0 0% 100%;
+    --card: 0 0% 100%;
+    --popover: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 0 100% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 40% 90%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 0 40% 90%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 0 40% 90%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --border: 0 40% 85%;
+    --input: 0 40% 85%;
+    --ring: 0 100% 65%;
+  }
+
+  /* Purple theme - ensuring white background in light mode */
+  .light.theme-purple {
+    --background: 0 0% 100%;
+    --card: 0 0% 100%;
+    --popover: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 270 100% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 270 40% 90%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 270 40% 90%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 270 40% 90%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --border: 270 40% 85%;
+    --input: 270 40% 85%;
+    --ring: 270 100% 65%;
+  }
+
+  /* Magenta theme - ensuring white background in light mode */
+  .light.theme-magenta {
+    --background: 0 0% 100%;
+    --card: 0 0% 100%;
+    --popover: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 315 100% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 315 40% 90%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 315 40% 90%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 315 40% 90%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --border: 315 40% 85%;
+    --input: 315 40% 85%;
+    --ring: 315 100% 60%;
+  }
+
+  /* Teal theme - ensuring white background in light mode */
+  .light.theme-teal {
+    --background: 0 0% 100%;
+    --card: 0 0% 100%;
+    --popover: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 180 100% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 180 40% 90%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 180 40% 90%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 180 40% 90%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --border: 180 40% 85%;
+    --input: 180 40% 85%;
+    --ring: 180 100% 40%;
+  }
+
+  /* Green theme - ensuring white background in light mode */
+  .light.theme-green {
+    --background: 0 0% 100%;
+    --card: 0 0% 100%;
+    --popover: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 125 100% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 125 40% 90%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 125 40% 90%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 125 40% 90%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --border: 125 40% 85%;
+    --input: 125 40% 85%;
+    --ring: 125 100% 40%;
+  }
+
+  /* Yellow theme with black text */
+  .light.theme-yellow {
+    --background: 0 0% 100%;
+    --card: 0 0% 100%;
+    --popover: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 45 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 45 40% 90%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 45 40% 90%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 45 40% 90%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --border: 45 40% 85%;
+    --input: 45 40% 85%;
+    --ring: 45 100% 50%;
+  }
+
+  /* Orange theme - ensuring white background in light mode */
+  .light.theme-orange {
+    --background: 0 0% 100%;
+    --card: 0 0% 100%;
+    --popover: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 25 100% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 25 40% 90%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 25 40% 90%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 25 40% 90%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --border: 25 40% 85%;
+    --input: 25 40% 85%;
+    --ring: 25 100% 55%;
+  }
+}

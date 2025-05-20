@@ -1,0 +1,22 @@
+
+@layer utilities {
+  .action-item {
+    @apply border-l-4 border-primary pl-3;
+  }
+  
+  .decision {
+    @apply bg-primary/10 p-3 rounded-md;
+  }
+  
+  .animate-pulse-recording {
+    animation: pulse-recording 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.5s ease-out forwards;
+  }
+
+  .glass-morphism {
+    @apply backdrop-blur-xl bg-white/5 dark:bg-black/30 border border-white/10 shadow-lg;
+  }
+}

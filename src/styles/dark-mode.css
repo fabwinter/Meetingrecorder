@@ -1,0 +1,67 @@
+
+@layer base {
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 47.4% 11.2%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 47.4% 11.2%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+  }
+
+  /* Keep the primary color values in dark mode for each theme */
+  .dark.theme-default {
+    --primary: 214 100% 60%;
+  }
+  
+  .dark.theme-blue {
+    --primary: 200 100% 50%;
+  }
+  
+  .dark.theme-red {
+    --primary: 0 100% 65%;
+  }
+  
+  .dark.theme-purple {
+    --primary: 270 100% 65%;
+  }
+  
+  .dark.theme-magenta {
+    --primary: 315 100% 60%;
+  }
+  
+  .dark.theme-teal {
+    --primary: 180 100% 40%;
+  }
+  
+  .dark.theme-green {
+    --primary: 125 100% 40%;
+  }
+  
+  .dark.theme-yellow {
+    --primary: 45 100% 50%;
+  }
+  
+  .dark.theme-orange {
+    --primary: 25 100% 55%;
+  }
+}
